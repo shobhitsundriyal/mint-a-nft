@@ -206,6 +206,7 @@ export default function Home() {
 							<a
 								href='https://twitter.com/ShobhitSundriy1'
 								target='_blank'
+								rel='noopener noreferrer'
 								className='mt-2 text-transparent ml-6 bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text font-semibold'
 							>
 								Follow me on twitter
@@ -214,6 +215,7 @@ export default function Home() {
 							<a
 								href='https://testnets.opensea.io/collection/not-dragon-balls'
 								target='_blank'
+								rel='noopener noreferrer'
 								className='mt-2 text-blue-600 bg-gradient-to-l from-blue-200 to-blue-600 bg-clip-text font-semibold'
 							>
 								View collection on opensea
@@ -231,6 +233,7 @@ export default function Home() {
 								alreadyMinted - 1
 							}`}
 							target='_blank'
+							rel='noopener noreferrer'
 							onClick={() => setNotify(false)}
 						>
 							Click here to see your orb on opensea
